@@ -5,7 +5,7 @@ SC_MODULE (Counter){
 
     SC_CTOR(Counter){
         min = 1;
-        max = 3;
+        max = 20;
 
         SC_THREAD(printNumbers);
     }
